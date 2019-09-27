@@ -1,5 +1,5 @@
 ---
-name: "litecoin-win-0.16"
+name: "deeponion-win-0.16"
 enable_cache: true
 suites:
 - "trusty"
@@ -22,8 +22,8 @@ packages:
 - "ca-certificates"
 - "python"
 remotes:
-- "url": "https://github.com/litecoin-project/litecoin.git"
-  "dir": "litecoin"
+- "url": "https://github.com/thnass/deeponion.git"
+  "dir": "deeponion"
 files: []
 script: |
   WRAP_DIR=$HOME/wrapped
